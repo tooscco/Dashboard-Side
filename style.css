@@ -109,7 +109,7 @@ span{
 
     .dashBoardDiv{
         background: blueviolet;
-        width: 38%;
+        width: 70%;
         height: 100vh;
         overflow-y: scroll;
         position: absolute;
@@ -121,7 +121,7 @@ span{
         margin-left: 30px;
     }
 
-    .menuClick:focus + .dashBoardDiv{
+    .menuClick:hover .dashBoardDiv{
         display: block;
     } 
 }
